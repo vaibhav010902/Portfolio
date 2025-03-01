@@ -80,12 +80,30 @@ navigationElements.forEach((element) => {
     element.addEventListener('click', () => {
         if (element.id === 'navigation-panel-resume') {
             window.open("https://drive.google.com/file/d/1FQueIJoAM_AvmJeHf2Uu3Yb8eyrnCNJt/view?usp=sharing", '_blank');
+            const txt = document.querySelector("#hamburger-icon a");
+            navigationPanel.style.display = 'none';
+            navigationPanel.style.transition = '';
+            txt.innerHTML = 'Menu';
+            menuButton.style.background = '';
+            txt.style.color = ''
         } else if (element.id === 'navigation-panel-project') {
             const projectSection = document.getElementById('fourth-container');
             projectSection.scrollIntoView({ behavior: "smooth", block: "center" });
+            const txt = document.querySelector("#hamburger-icon a");
+            navigationPanel.style.display = 'none';
+            navigationPanel.style.transition = '';
+            txt.innerHTML = 'Menu';
+            menuButton.style.background = '';
+            txt.style.color = ''
         } else if (element.id === 'navigation-panel-connect') {
             const connectSection = document.getElementById('fifth-container');
             connectSection.scrollIntoView({ behavior: "smooth", block: "start" });
+            const txt = document.querySelector("#hamburger-icon a");
+            navigationPanel.style.display = 'none';
+            navigationPanel.style.transition = '';
+            txt.innerHTML = 'Menu';
+            menuButton.style.background = '';
+            txt.style.color = ''
         }
     });
 });

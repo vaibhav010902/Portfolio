@@ -79,7 +79,7 @@ const navigationElements = navigationPanel.querySelectorAll('h4');
 navigationElements.forEach((element) => {
     element.addEventListener('click', () => {
         if (element.id === 'navigation-panel-resume') {
-            window.open("https://drive.google.com/file/d/1FQueIJoAM_AvmJeHf2Uu3Yb8eyrnCNJt/view?usp=sharing", '_blank');
+            window.open("https://drive.google.com/file/d/1L7KI9kTxlBrX3VDg6UaQwmWX_hGXtr4I/view?usp=sharing", '_blank');
             const txt = document.querySelector("#hamburger-icon a");
             navigationPanel.style.display = 'none';
             navigationPanel.style.transition = '';

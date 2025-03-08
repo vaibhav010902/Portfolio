@@ -7,7 +7,7 @@ const connectButton = document.getElementById('Connect');
 
 
 resumeButton.addEventListener('click', () => {
-    window.open("https://drive.google.com/file/d/1FmkMQzV5ba9w7_3IERJOFrMObM74E0dT/view?usp=sharing", "_blank");
+    window.open("https://drive.google.com/file/d/1L7KI9kTxlBrX3VDg6UaQwmWX_hGXtr4I/view?usp=sharing", "_blank");
 })
 projectButton.addEventListener('click', () => {
     const projectSection = document.getElementById('fourth-container');
